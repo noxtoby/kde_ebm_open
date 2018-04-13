@@ -13,13 +13,13 @@ def configuration(parent_package='', top_path=None):
                        delegate_options_to_subpackages=True,
                        quiet=True)
 
-    config.add_subpackage('kde_ebm')
+    config.add_subpackage('kdeebm')
 
     return config
 
 
 def setup_package():
-    metadata = dict(name='kde_ebm',
+    metadata = dict(name='kdeebm',
                     maintainer='Nicholas C. Firth',
                     maintainer_email='nicholas.firth@ucl.ac.uk',
                     description='kde_ebm code innit',
