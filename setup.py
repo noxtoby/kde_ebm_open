@@ -1,4 +1,4 @@
-# Authors: Nicholas C. Firth <ncfirth87@gmail.com>
+# Authors: Nicholas C. Firth <ncfirth87@gmail.com>, Neil P. Oxtoby <github:noxtoby>
 # License: TBC
 
 
@@ -20,11 +20,11 @@ def configuration(parent_package='', top_path=None):
 
 def setup_package():
     metadata = dict(name='kdeebm',
-                    maintainer='Nicholas C. Firth',
-                    maintainer_email='nicholas.firth@ucl.ac.uk',
-                    description='kde_ebm code innit',
+                    maintainer='Neil P. Oxtoby',
+                    maintainer_email='n.oxtoby@ucl.ac.uk',
+                    description='Event based model with KDE mixture model under the hood',
                     license='TBC',
-                    url='',
+                    url='https://github.com/ucl-pond',
                     version='0.0.1',
                     zip_safe=False,
                     classifiers=['Intended Audience :: Science/Research',

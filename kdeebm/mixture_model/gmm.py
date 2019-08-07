@@ -188,3 +188,10 @@ class ParametricMM():
         self.ad_comp.set_theta(res[:-1])
         self.mix = res[-1]
         return res
+
+    def BIC(self, X):
+        controls_score, patholog_score = self.pdf(X=X.reshape(-1, 1),theta=self.theta)
+        likelihood = controls_score + patholog_score
+        likelihood = -1*np.log(likelihood).sum()
+        return 2*likelihood+2*np.log(X.shape[0])
+
