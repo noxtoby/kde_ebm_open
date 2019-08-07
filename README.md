@@ -1,4 +1,4 @@
-Non-Parametric Mixture Modelling and its Application to Disease Progression Modelling
+Sequencing cognitive decline in typical Alzheimer’s disease and posterior cortical atrophy using a novel event-based model of disease progression
 =================
 
 This repo contains the code used for the submitted manuscript
@@ -9,6 +9,9 @@ Once inside this directly you can just install with `pip` using
 
 `pip install .`
 
+Scripts relevant to the paper
+============
+In the folder `kde_ebm_paper` you'll find scripts to generate synthetic data, the figures, and the related analyses in the submitted manuscript.
 
 Dependencies
 ============
@@ -17,5 +20,5 @@ Dependencies
 - [Matplotlib](https://github.com/matplotlib/matplotlib)
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn)
 
-The code depends heavily on NumPy, uses SciPy to calculate some stats and do some optimisation, uses Matplotlib just to do the plotting, and used scikit-learn to do some Kernel Density Estimation
+The code depends heavily on NumPy, uses SciPy to calculate some stats and do some optimisation, uses Matplotlib just to do the plotting, and used scikit-learn for Kernel Density Estimation
 
